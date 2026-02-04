@@ -38,11 +38,10 @@ export const StaggeredMenu: React.FC<StaggeredMenuProps> = ({
   displaySocials = true,
   displayItemNumbering = true,
   className,
-  logoUrl = '/src/assets/Pratibimba-Meet the Team - 3.png',
   menuButtonColor = '#fff',
-  openMenuButtonColor = '#fff',
+  openMenuButtonColor = '#fd2424',
   changeMenuColorOnOpen = true,
-  accentColor = '#5227FF',
+  accentColor = '#fd2424',
   isFixed = false,
   closeOnClickAway = true,
   onMenuOpen,
@@ -381,8 +380,12 @@ export const StaggeredMenu: React.FC<StaggeredMenuProps> = ({
 
   return (
     <div
-      className={`sm-scope z-40 ${isFixed ? 'fixed top-0 left-0 w-screen h-screen overflow-hidden' : 'w-full h-full'}`}
-    >
+  className={`sm-scope z-40 ${
+    isFixed
+      ? `fixed top-0 left-0 w-screen h-screen overflow-hidden ${open ? 'pointer-events-auto' : 'pointer-events-none'}`
+      : 'w-full h-full pointer-events-none'
+  }`}
+>
       <div
         className={
           (className ? className + ' ' : '') + 'staggered-menu-wrapper pointer-events-none relative w-full h-full z-40'

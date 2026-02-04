@@ -1,12 +1,22 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import StaggeredMenu from "./StaggeredMenu";
+import StaggeredMenu from "../components/layout/StaggeredMenu";
 import Image from "next/image";
+import Footer from "@/components/layout/footer";
+import { Noto_Sans_Bengali } from "next/font/google";
+import footer from '@/components/layout/footer';
+import Link from "next/link";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+});
+
+const notoSansBengali = Noto_Sans_Bengali({
+  variable: "--font-noto-sans-bengali",
+  subsets: ["bengali", "latin"],
+  weight: ["400", "700"],
 });
 
 const menuItems = [
@@ -41,7 +51,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${notoSansBengali.variable} antialiased`}
       >
         <StaggeredMenu isFixed={true} items={menuItems} socialItems={socialItems} 
         menuButtonColor="#ff0000"
@@ -60,7 +70,10 @@ export default function RootLayout({
             />
           </div>
           <div className="min-h-screen flex items-center justify-center text-red-600 font-regular text-xl">Page is under Active Development Phase ;3</div>
+        <div className="flex-1">
         {children}
+        </div>
+        <Footer />
       </body>
     </html>
   );
