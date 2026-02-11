@@ -59,7 +59,7 @@ export default function RootLayout({
         changeMenuColorOnOpen={true}
         colors={['#fe5656', '#9a1313']} 
         accentColor="#fd2424" />
-        <div className="flex items-center left-5 top-2 fixed z-50">
+        <div className="flex items-center left-5 top-0.5 fixed z-50">
             <Image
               src="/logo.svg"
               alt=""
@@ -69,7 +69,6 @@ export default function RootLayout({
               priority
             />
           </div>
-          <div className="min-h-screen flex items-center justify-center text-red-600 font-regular text-xl">Page is under Active Development Phase ;3</div>
         <div className="flex-1">
         {children}
         </div>

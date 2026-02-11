@@ -24,3 +24,12 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.dropcap::first-letter {
+  float: left;
+  font-size: 3rem;
+  line-height: 1;
+  margin-right: 8px;
+  font-weight: bold;
+}
+
