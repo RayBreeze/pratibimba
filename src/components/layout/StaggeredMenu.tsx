@@ -451,7 +451,7 @@ export const StaggeredMenu: React.FC<StaggeredMenuProps> = ({
 
             <span
               ref={iconRef}
-              className="sm-icon relative w-[14px] h-[14px] shrink-0 inline-flex items-center justify-center [will-change:transform]"
+              className="sm-icon relative w-[25px] h-[25px] shrink-0 inline-flex items-center justify-center [will-change:transform]"
               aria-hidden="true"
             >
               <span

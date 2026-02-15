@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import StaggeredMenu from "../components/layout/StaggeredMenu";
 import Image from "next/image";
@@ -11,6 +11,16 @@ import Link from "next/link";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+});
+
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-playfair",
+});
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
 });
 
 const notoSansBengali = Noto_Sans_Bengali({
@@ -51,7 +61,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${notoSansBengali.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${notoSansBengali.variable} ${playfair.variable} ${inter.variable} antialiased`}
       >
         <StaggeredMenu isFixed={true} items={menuItems} socialItems={socialItems} 
         menuButtonColor="#ff0000"
@@ -59,7 +69,7 @@ export default function RootLayout({
         changeMenuColorOnOpen={true}
         colors={['#fe5656', '#9a1313']} 
         accentColor="#fd2424" />
-        <div className="flex items-center left-5 top-0.5 fixed z-50">
+        <div className="flex items-center left-5 top-0 fixed z-50">
             <Image
               src="/logo.svg"
               alt=""
