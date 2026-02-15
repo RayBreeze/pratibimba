@@ -1,13 +1,11 @@
 <div align="center">
 
-<img src="assets/magazine logo.svg" width="180" alt="Pratibimba Logo" />
+<img src="public/magazine logo.svg" width="180" alt="Pratibimba Logo" />
 
 # PRATIBIMBA  
 ### Literary Society Website
 
 [![License: CC0 1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
-![CI](https://github.com/RayBreeze/pratibimba/actions/workflows/ci.yml/badge.svg)
-
 ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white)
 
 _“আমরা নিরাশার খনিতে স্বপ্ন খনন করি”_
