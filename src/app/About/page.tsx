@@ -12,7 +12,7 @@ export default function AboutPage() {
     playsInline
     className="absolute inset-0 w-full h-full object-cover"
   >
-    <source src="/kolkata.mp4" type="video/mp4" />
+    <source src="/Kolkata.mp4" type="video/mp4" />
   </video>
 
   {/* Dark Overlay */}
