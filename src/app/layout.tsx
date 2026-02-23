@@ -5,6 +5,8 @@ import StaggeredMenu from "../components/layout/StaggeredMenu";
 import Image from "next/image";
 import Footer from "@/components/layout/footer";
 import { Noto_Sans_Bengali } from "next/font/google";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import footer from '@/components/layout/footer';
 import Link from "next/link";
 
@@ -81,6 +83,7 @@ export default function RootLayout({
           </div>
         <div className="flex-1">
         {children}
+          <ToastContainer position="top-right" />
         </div>
         <Footer />
       </body>
