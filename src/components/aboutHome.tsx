@@ -1,4 +1,6 @@
+'use client';
 import Image from "next/image";
+import { CldImage } from "next-cloudinary";
 
 export default function AboutMagazinePreview() {
   return (
@@ -26,8 +28,8 @@ export default function AboutMagazinePreview() {
 
         {/* RIGHT — IMAGE */}
         <div className="flex justify-center">
-          <Image
-            src="/2025P.jpg"
+          <CldImage
+            src="https://res.cloudinary.com/dskdl70cq/image/upload/v1771910845/2025P_zoould.jpg"
             alt="Magazine Cover"
             width={450}
             height={600}

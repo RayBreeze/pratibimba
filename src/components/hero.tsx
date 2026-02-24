@@ -2,6 +2,7 @@
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, EffectFade, Navigation } from "swiper/modules";
+import { CldImage } from 'next-cloudinary';
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -23,22 +24,50 @@ export default function HeroCarousel() {
         }}
       >
         <SwiperSlide>
-          <div className="h-full bg-[url('/Hero1.jpg')] bg-cover bg-center flex items-center justify-center">
+          <div className="h-full bg-cover bg-center flex items-center justify-center">
+            <CldImage
+              src="https://res.cloudinary.com/dskdl70cq/image/upload/v1771910808/Hero1_vgxlim.jpg"
+              alt="Inaugration of Pratibimba"
+              width={1200}
+              height={900}
+              className="w-full h-full object-cover"
+            />
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="h-full bg-[url('/Hero2.jpg')] bg-cover bg-center flex items-center justify-center">
+          <div className="h-full bg-cover bg-center flex items-center justify-center">
+            <CldImage
+              src="https://res.cloudinary.com/dskdl70cq/image/upload/v1771910809/Hero2_oqbddi.jpg"
+              alt="Pratibimba's event"
+              width={1200}
+              height={900}
+              className="w-full h-full object-cover"
+            />
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="h-full bg-[url('/Hero3.jpg')] bg-cover bg-center flex items-center justify-center">
+          <div className="h-full bg-cover bg-center flex items-center justify-center">
+            <CldImage
+              src="https://res.cloudinary.com/dskdl70cq/image/upload/v1771910808/Hero3_alwkrq.jpg"
+              alt="Pratibimba's event"
+              width={1200}
+              height={900}
+              className="w-full h-full object-cover"
+            />
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="h-full bg-[url('/Hero4.jpg')] bg-cover bg-center flex items-center justify-center">
+          <div className="h-full bg-cover bg-center flex items-center justify-center">
+            <CldImage
+              src="https://res.cloudinary.com/dskdl70cq/image/upload/v1771910808/Hero4_sjrnzj.jpg"
+              alt="Pratibimba's event"
+              width={1200}
+              height={900}
+              className="w-full h-full object-cover"
+            />
           </div>
         </SwiperSlide>
       </Swiper>

@@ -40,9 +40,9 @@ const menuItems = [
 ];
 
 const socialItems = [
-  { label: 'Twitter', link: 'https://twitter.com' },
-  { label: 'GitHub', link: 'https://github.com' },
-  { label: 'LinkedIn', link: 'https://linkedin.com' }
+  { label: 'Instagram', link: 'https://www.instagram.com/pratibimba.official' },
+  { label: 'GitHub', link: 'https://github.com/RayBreeze/pratibimba' },
+  { label: 'LinkedIn', link: 'https://www.linkedin.com/company/gcectpratibimba' }
 ];
 
 const geistMono = Geist_Mono({

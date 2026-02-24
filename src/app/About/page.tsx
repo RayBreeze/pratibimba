@@ -1,3 +1,4 @@
+
 export default function AboutPage() {
   return (
     <main className="bg-white text-neutral-900">
@@ -12,7 +13,7 @@ export default function AboutPage() {
     playsInline
     className="absolute inset-0 w-full h-full object-cover"
   >
-    <source src="/Kolkata.mp4" type="video/mp4" />
+    <source src="https://res.cloudinary.com/dskdl70cq/video/upload/v1771910873/kolkata_xrpgiq.mp4" type="video/mp4" />
   </video>
 
   {/* Dark Overlay */}
