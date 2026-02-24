@@ -26,16 +26,18 @@ export default function AboutMagazinePreview() {
           </p>
         </div>
 
-        {/* RIGHT — IMAGE */}
-        <div className="flex justify-center">
-          <CldImage
-            src="https://res.cloudinary.com/dskdl70cq/image/upload/v1771910845/2025P_zoould.jpg"
-            alt="Magazine Cover"
-            width={450}
-            height={600}
-            className="rounded-lg shadow-2xl"
-          />
-        </div>
+       {/* RIGHT — FLIPBOOK */}
+<div className="flex justify-center w-full">
+  <div className="w-full max-w-md aspect-[3/4] rounded-lg overflow-hidden shadow-2xl">
+    <iframe
+      src="https://heyzine.com/flip-book/04400441db.html"
+      className="w-full h-full"
+      allowFullScreen
+      allow="clipboard-write"
+      style={{ border: 0 }}
+    />
+  </div>
+</div>
 
       </div>
     </section>
