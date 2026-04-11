@@ -257,38 +257,6 @@ I wish this mouthpiece, PRATIBIMBA, of the Government College of Engineering and
             className="w-50 h-50 object-contain"
           />
         </div>
-        <h3 className="mt-6 text-xl font-semibold">Shibangi Saha</h3>
-        <p className="text-rose-600 font-medium">Illustrator</p>
-        <p className="mt-3 text-neutral-600 text-sm leading-relaxed">
-          Believes literature is a mirror to society and a voice of change.
-        </p>
-      </div>
-
-      {/* Member 1 */}
-      <div className="text-center">
-        <div className="relative w-40 h-40 mx-auto rounded-full overflow-hidden shadow-lg bg-rose-300">
-          <img
-            src="/avatar-default.svg"
-            alt="President"
-            className="w-50 h-50 object-contain"
-          />
-        </div>
-        <h3 className="mt-6 text-xl font-semibold">Sohini Sarkar</h3>
-        <p className="text-rose-600 font-medium">Illustrator</p>
-        <p className="mt-3 text-neutral-600 text-sm leading-relaxed">
-          Believes literature is a mirror to society and a voice of change.
-        </p>
-      </div>
-
-      {/* Member 1 */}
-      <div className="text-center">
-        <div className="relative w-40 h-40 mx-auto rounded-full overflow-hidden shadow-lg bg-rose-300">
-          <img
-            src="/avatar-default.svg"
-            alt="President"
-            className="w-50 h-50 object-contain"
-          />
-        </div>
         <h3 className="mt-6 text-xl font-semibold">Pratik Halder</h3>
         <p className="text-rose-600 font-medium">Illustrator</p>
         <p className="mt-3 text-neutral-600 text-sm leading-relaxed">

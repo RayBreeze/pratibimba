@@ -9,6 +9,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import footer from '@/components/layout/footer';
 import Link from "next/link";
+import AnnouncementBar from "@/components/announcementBar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

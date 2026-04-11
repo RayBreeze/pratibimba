@@ -1,9 +1,11 @@
 import Hero from "@/components/hero";
 import AboutMagazinePreview from "@/components/aboutHome";
 import ScrollVelocity from "@/components/layout/ornament";
+import AnnouncementBar from "@/components/announcementBar";
 export default function Home() {
   return (
     <div>
+      <AnnouncementBar />
       <div className="width-full h-[60px] mt-10">
         
       </div>
