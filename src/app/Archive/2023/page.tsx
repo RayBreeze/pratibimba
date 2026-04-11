@@ -98,18 +98,6 @@ export default function Archive2023() {
             className="w-50 h-50 object-contain"
           />
         </div>
-        <h3 className="mt-6 text-xl font-semibold">Ms. Monoswini Dey</h3>
-      </div>
-
-      {/* Member 1 */}
-      <div className="text-center">
-        <div className="relative w-40 h-40 mx-auto rounded-full overflow-hidden shadow-lg bg-rose-300">
-          <img
-            src="/avatar-default.svg"
-            alt="President"
-            className="w-50 h-50 object-contain"
-          />
-        </div>
         <h3 className="mt-6 text-xl font-semibold">Mr. Pijush Nandy</h3>
       </div>
 
