@@ -13,7 +13,7 @@ export default function Archive2023() {
           <h1 className="text-4xl md:text-5xl tracking-tight leading-tight">
             প্রতিবিম্ব
             <br />
-            <span className="text-white text-4xl">প্রথম সংখ্যা, ২০২৩</span>
+            <span className="text-white text-4xl">তৃতীয় সংখ্যা, ২০২৫</span>
           </h1>
         </div>
 
@@ -33,115 +33,115 @@ export default function Archive2023() {
       <div className="text-center">
         <div className="relative w-40 h-40 mx-auto rounded-full overflow-hidden shadow-lg bg-rose-300">
           <img
-            src="https://res.cloudinary.com/dskdl70cq/image/upload/v1776875063/Screenshot_2026-04-22_214852_yqp0dz.png"
+            src="https://res.cloudinary.com/dskdl70cq/image/upload/v1776879157/Screenshot_2026-04-22_225750_xsrtnp.png"
             alt="President"
             className="w-50 h-50 object-cover pointer-events-none"
           />
         </div>
-        <h3 className="mt-6 text-xl font-semibold">Ms. Monami Chakraborty</h3>
+        <h3 className="mt-6 text-xl font-semibold">Mr. Bidwattar Kar</h3>
       </div>
 
       {/* Member 2 */}
       <div className="text-center">
         <div className="relative w-40 h-40 mx-auto rounded-full overflow-hidden shadow-lg bg-rose-300">
           <img
-            src="https://res.cloudinary.com/dskdl70cq/image/upload/v1776875073/Screenshot_2026-04-22_214927_hf3xck.png"
+            src="https://res.cloudinary.com/dskdl70cq/image/upload/v1776879208/Screenshot_2026-04-22_230049_b9omjy.png"
             alt="President"
             className="w-50 h-50 object-cover pointer-events-none"
           />
         </div>
-        <h3 className="mt-6 text-xl font-semibold">Mr. Debarshi Chakrabarty</h3>
+        <h3 className="mt-6 text-xl font-semibold">Mr. Shirsankur Roy</h3>
       </div>
 
       {/* Member 3 */}
       <div className="text-center">
         <div className="relative w-40 h-40 mx-auto rounded-full overflow-hidden shadow-lg bg-rose-300">
           <img
-            src="https://res.cloudinary.com/dskdl70cq/image/upload/v1776875065/Screenshot_2026-04-22_214949_es4zwa.png"
+            src="https://res.cloudinary.com/dskdl70cq/image/upload/v1776879205/Screenshot_2026-04-22_225816_mvjlhf.png"
             alt="President"
             className="w-50 h-50 object-cover pointer-events-none"
           />
         </div>
-        <h3 className="mt-6 text-xl font-semibold">Mr. Arghadeep Nandi</h3>
+        <h3 className="mt-6 text-xl font-semibold">Mr. Ezaz Ul Haque</h3>
       </div>
 
       {/* Member 1 */}
       <div className="text-center">
         <div className="relative w-40 h-40 mx-auto rounded-full overflow-hidden shadow-lg bg-rose-300">
           <img
-            src="https://res.cloudinary.com/dskdl70cq/image/upload/v1776875063/Screenshot_2026-04-22_215011_frglgp.png"
+            src="https://res.cloudinary.com/dskdl70cq/image/upload/v1776879184/Screenshot_2026-04-22_225835_srvzgo.png"
             alt="President"
             className="w-50 h-50 object-cover pointer-events-none"
           />
         </div>
-        <h3 className="mt-6 text-xl font-semibold">Mr. Pijush Nandy</h3>
+        <h3 className="mt-6 text-xl font-semibold">Mr. Sayan Biswas</h3>
       </div>
 
       {/* Member 1 */}
       <div className="text-center">
         <div className="relative w-40 h-40 mx-auto rounded-full overflow-hidden shadow-lg bg-rose-300">
           <img
-            src="https://res.cloudinary.com/dskdl70cq/image/upload/v1776875072/Screenshot_2026-04-22_215039_wcr0xs.png"
+            src="https://res.cloudinary.com/dskdl70cq/image/upload/v1776879160/Screenshot_2026-04-22_225854_xj4mnt.png"
             alt="President"
             className="w-50 h-50 object-cover pointer-events-none"
           />
         </div>
-        <h3 className="mt-6 text-xl font-semibold">Ms. Rachana Dey</h3>
+        <h3 className="mt-6 text-xl font-semibold">Mr. Arkapravo Roy</h3>
       </div>
 
       <div className="text-center">
         <div className="relative w-40 h-40 mx-auto rounded-full overflow-hidden shadow-lg bg-rose-300">
           <img
-            src="https://res.cloudinary.com/dskdl70cq/image/upload/v1776875073/Screenshot_2026-04-22_215057_gyeiuc.png"
+            src="https://res.cloudinary.com/dskdl70cq/image/upload/v1776879199/Screenshot_2026-04-22_225939_awgv5q.png"
             alt="President"
             className="w-50 h-50 object-cover pointer-events-none"
           />
         </div>
-        <h3 className="mt-6 text-xl font-semibold">Mr. Ranjan Ray</h3>
+        <h3 className="mt-6 text-xl font-semibold">Ms. Rahini Ghosh</h3>
       </div>
 
       <div className="text-center">
         <div className="relative w-40 h-40 mx-auto rounded-full overflow-hidden shadow-lg bg-rose-300">
           <img
-            src="https://res.cloudinary.com/dskdl70cq/image/upload/v1776875068/Screenshot_2026-04-22_215114_ycv5hm.png"
+            src="https://res.cloudinary.com/dskdl70cq/image/upload/v1776879184/Screenshot_2026-04-22_225918_xtr34z.png"
             alt="President"
             className="w-50 h-50 object-cover pointer-events-none"
           />
         </div>
-        <h3 className="mt-6 text-xl font-semibold">Prof. Rituparno Sen</h3>
+        <h3 className="mt-6 text-xl font-semibold">Ms. Sohely Das</h3>
       </div>
 
       <div className="text-center">
         <div className="relative w-40 h-40 mx-auto rounded-full overflow-hidden shadow-lg bg-rose-300">
           <img
-            src="https://res.cloudinary.com/dskdl70cq/image/upload/v1776875066/Screenshot_2026-04-22_215130_t7egg6.png"
+            src="https://res.cloudinary.com/dskdl70cq/image/upload/v1776879199/Screenshot_2026-04-22_230001_hjyaga.png"
             alt="President"
             className="w-50 h-50 object-cover pointer-events-none"
           />
         </div>
-        <h3 className="mt-6 text-xl font-semibold">Dr. Nilesh Mazumder</h3>
+        <h3 className="mt-6 text-xl font-semibold">Mr. Sougata Sanyal</h3>
       </div>
 
     <div className="text-center">
         <div className="relative w-40 h-40 mx-auto rounded-full overflow-hidden shadow-lg bg-rose-300">
           <img
-            src="https://res.cloudinary.com/dskdl70cq/image/upload/v1776875073/Screenshot_2026-04-22_215142_emzqjo.png"
+            src="https://res.cloudinary.com/dskdl70cq/image/upload/v1776879199/Screenshot_2026-04-22_230030_fxcn9m.png"
             alt="President"
             className="w-50 h-50 object-cover pointer-events-none"
           />
         </div>
-        <h3 className="mt-6 text-xl font-semibold">Dr. Prasenjit Paul</h3>
+        <h3 className="mt-6 text-xl font-semibold">Mr. Asmit Dey</h3>
       </div>
 
       <div className="text-center">
         <div className="relative w-40 h-40 mx-auto rounded-full overflow-hidden shadow-lg bg-rose-300">
           <img
-            src="https://res.cloudinary.com/dskdl70cq/image/upload/v1776875073/Screenshot_2026-04-22_215206_ocfftv.png"
+            src="https://res.cloudinary.com/dskdl70cq/image/upload/v1776879200/Screenshot_2026-04-22_230127_ysymsq.png"
             alt="President"
             className="w-50 h-50 object-cover pointer-events-none"
           />
         </div>
-        <h3 className="mt-6 text-xl font-semibold">Mr. Biswarup Das</h3>
+        <h3 className="mt-6 text-xl font-semibold">Mr. Samman Das</h3>
       </div>
         </div>
       </section>
@@ -164,21 +164,16 @@ export default function Archive2023() {
     <div className="bg-white shadow-2xl rounded-2xl p-8 md:p-12">
 
       {/* Paragraph formatting without changing text */}
-      <div className={`${cormorant.className} space-y-6 text-neutral-900 leading-relaxed text-[20px] whitespace-pre-line tracking-[0.015em]`}>
-{`Dear Readers,
+     <div className={`${cormorant.className} space-y-6 text-neutral-900 leading-relaxed text-[20px] whitespace-pre-line tracking-[0.015em]`}>
+{`Greetings to all readers,
 
-It is with great pleasure that we welcome you to the first issue of "Pratibimba", magazine for the Government College of Engineering and Ceramic Technology (GCECT). As the Editors-in-Chief of the magazine, it gives us immense satisfaction to see this publication come to fruition after months of hard work and dedication from the entire team.
+It gives us immense joy and boundless excitement to present to you the third edition of Pratibimba. What you hold in your hands is not just a magazine, but a carefully crafted tapestry of thoughts, stories, and creativity woven together with dedication, passion, and a touch of editorial artistry that we take great pride in.
 
-The word "Pratibimba" means reflection or image, and our magazine aims to reflect the diverse talents, ideas, and experiences of the students and faculty of GCECT. Our goal is to provide a platform for creative expression and intellectual engagement, where readers can explore a range of topics related to science, technology, arts, and culture.
+We have witnessed a remarkable rise in both the quality and the depth of the content submitted this year. Each piece reflects the unique perspectives, talents, and voices of our contributors, and it has been our privilege to curate and refine them into a work that resonates with our readers as well as the contributors.
 
-In this issue, we bring to you a diverse range of articles, essays, and stories that showcase the intellectual curiosity and creativity of our community. We have covered topics ranging from the impact of artificial intelligence on society to the importance of preserving traditional art forms.
+Every page has been shaped with care - designed to not just inform, but inspire; not just entertain, but to reveal several aspects you often overlook since daily life gives us too much to take in. It is our hope that as you journey through these pages, you feel the same enthusiasm and pride that we felt while creating it.
 
-We also have a special section dedicated to the creative works of our students, including poetry, artwork, and photography. This section is a testament to the talent and imagination of our student body and serves as a reminder that GCECT is not just a place of learning, but also a community of creative individuals.
-
-We would like to thank the entire team of "Pratibimba" for their hard work and dedication in bringing this publication to life. 
-We would also like to thank the contributors who have shared their ideas and experiences with us. Lastly, we would like to thank our readers for their immense support and encouragement.
-
-We hope that you enjoy reading the first issue of "Pratibimba" and that it serves as a source of inspiration and intellectual engagement for all of us. May this very first issue of Pratibimba become a bridge to connect with the horizon among the college leagues of India and become successful with flying colours.`}
+We are delighted to share this third edition with you, our valued reader as without your curiosity, enthusiasm and appreciation, Pratibimba's purpose would be incomplete. May these pages spark your imagination, stir your emotions, help you see things you often overlook, and leave you with memories worth revisiting.`}
       </div>
 
        {/* Signature */}
@@ -187,17 +182,17 @@ We hope that you enjoy reading the first issue of "Pratibimba" and that it serve
   {/* Left side – Name/Role */}
   <div>
     <p className="text-lg font-semibold text-neutral-900">
-      Editor-in-Chief
+      Editors-in-Chief
     </p>
     <p className="text-sm text-neutral-500">
-      Pratibimba Literary Society | GCECT | 2023
+      Pratibimba Literary Society | GCECT | 2025
     </p>
   </div>
 
   {/* Right side – Visual signature */}
   <div className="text-right">
     <p className="font-serif italic text-2xl text-rose-600">
-      — Monami Chakraborty
+      — Bidwattar Kar & Shirsankur Roy
     </p>
   </div>
 
@@ -217,14 +212,14 @@ We hope that you enjoy reading the first issue of "Pratibimba" and that it serve
           </h2>
 
           <p className="text-neutral-600 mb-10">
-            Experience the complete 2023 edition.
+            Experience the complete 2025 edition.
           </p>
 
           {/* Replace with your Flipbook */}
           <div className="flex justify-center">
   <div className="w-full max-w-xl aspect-[3/4] rounded-lg overflow-hidden shadow-2xl">
     <iframe
-      src="https://heyzine.com/flip-book/4075387fe0.html"
+      src="https://heyzine.com/flip-book/04400441db.html"
       className="w-full h-full"
       allowFullScreen
       allow="clipboard-write"

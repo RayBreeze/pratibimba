@@ -10,6 +10,12 @@ import "react-toastify/dist/ReactToastify.css";
 import footer from '@/components/layout/footer';
 import Link from "next/link";
 import AnnouncementBar from "@/components/announcementBar";
+import { Cormorant } from 'next/font/google';
+
+export const cormorant = Cormorant({
+  subsets: ['latin'],
+  weight: ['400', '500', '600'],
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

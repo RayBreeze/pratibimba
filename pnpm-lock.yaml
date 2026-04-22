@@ -11,6 +11,9 @@ importers:
       '@emailjs/browser':
         specifier: ^4.4.1
         version: 4.4.1
+      dotenv:
+        specifier: ^17.4.2
+        version: 17.4.2
       emailjs:
         specifier: ^5.0.0
         version: 5.0.0(typescript@5.9.3)
@@ -32,6 +35,9 @@ importers:
       next-cloudinary:
         specifier: ^6.17.5
         version: 6.17.5(next@16.1.6(@babel/core@7.29.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)
+      pnpm:
+        specifier: ^10.33.1
+        version: 10.33.1
       react:
         specifier: 19.2.3
         version: 19.2.3
@@ -964,6 +970,10 @@ packages:
     resolution: {integrity: sha512-35mSku4ZXK0vfCuHEDAwt55dg2jNajHZ1odvF+8SSr82EsZY4QmXfuWso8oEd8zRhVObSN18aM0CjSdoBX7zIw==}
     engines: {node: '>=0.10.0'}
 
+  dotenv@17.4.2:
+    resolution: {integrity: sha512-nI4U3TottKAcAD9LLud4Cb7b2QztQMUEfHbvhTH09bqXTxnSie8WnjPALV/WMCrJZ6UV/qHJ6L03OqO3LcdYZw==}
+    engines: {node: '>=12'}
+
   dunder-proto@1.0.1:
     resolution: {integrity: sha512-KIN/nDJBQRcXw0MLVhZE9iQHmG68qAVIBg9CqmUYjmQIhgij9U5MFvrqkUL5FbtyyzZuOeOt0zdeRe4UY7ct+A==}
     engines: {node: '>= 0.4'}
@@ -1745,6 +1755,11 @@ packages:
   picomatch@4.0.3:
     resolution: {integrity: sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==}
     engines: {node: '>=12'}
+
+  pnpm@10.33.1:
+    resolution: {integrity: sha512-Bbo8HV0cGPaN8GRw10BV5i1B/BEKDGYNsbLfsnhTJ/BM8PaDRdRgm8Ugief6A0PDFZOy+VlOLF1dpCYjCsyYIA==}
+    engines: {node: '>=18.12'}
+    hasBin: true
 
   possible-typed-array-names@1.1.0:
     resolution: {integrity: sha512-/+5VFTchJDoVj3bhoqi6UeymcD00DAwb1nJwamzPvHEszJ4FpF6SNNbUbOS8yI56qHzdV8eK0qEfOSiodkTdxg==}
@@ -2921,6 +2936,8 @@ snapshots:
     dependencies:
       esutils: 2.0.3
 
+  dotenv@17.4.2: {}
+
   dunder-proto@1.0.1:
     dependencies:
       call-bind-apply-helpers: 1.0.2
@@ -3811,6 +3828,8 @@ snapshots:
   picomatch@2.3.1: {}
 
   picomatch@4.0.3: {}
+
+  pnpm@10.33.1: {}
 
   possible-typed-array-names@1.1.0: {}
 
