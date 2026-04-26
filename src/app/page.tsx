@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <AnnouncementBar />
-      <div className="width-full h-[60px] mt-10">
+      <div className="width-full h-[25px] mt-10">
         
       </div>
       <Hero />

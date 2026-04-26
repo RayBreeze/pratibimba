@@ -13,11 +13,13 @@ export default function GalleryTabs({
   illustrations,
   photographs,
 }: GalleryTabsProps) {
-  const [active, setActive] = useState<keyof typeof galleryData>("illustrations");
+  const [active, setActive] =
+    useState<keyof typeof galleryData>("illustrations");
 
   return (
     <div className="max-w-6xl mx-auto px-6 py-16">
 
+      {/* Tabs */}
       <div className="flex gap-12 border-b border-neutral-300 mb-12">
 
         <button
@@ -50,7 +52,17 @@ export default function GalleryTabs({
 
       </div>
 
-      <LightGalleryWrapper images={galleryData[active]} />
+      {/* BOTH galleries mounted */}
+      
+      {/* Illustrations */}
+      <div className={active === "illustrations" ? "block" : "hidden"}>
+        <LightGalleryWrapper images={galleryData.illustrations} />
+      </div>
+
+      {/* Photographs */}
+      <div className={active === "photographs" ? "block" : "hidden"}>
+        <LightGalleryWrapper images={galleryData.photographs} />
+      </div>
 
     </div>
   );

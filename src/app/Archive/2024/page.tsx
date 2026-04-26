@@ -176,7 +176,7 @@ export default function Archive2023() {
     <div className="bg-white shadow-2xl rounded-2xl p-8 md:p-12">
 
       {/* Paragraph formatting without changing text */}
-      <div className={`${cormorant.className} space-y-6 text-neutral-900 leading-relaxed text-[20px] whitespace-pre-line tracking-[0.015em]`}>
+      <div className={`font-serif space-y-6 text-neutral-900 leading-relaxed text-[20px] whitespace-pre-line tracking-[0.015em]`}>
 {`Greetings to all readers,
 
 
@@ -232,7 +232,7 @@ Warm regards,`}
           <div className="flex justify-center">
   <div className="w-full max-w-xl aspect-[3/4] rounded-lg overflow-hidden shadow-2xl">
     <iframe
-      src="https://heyzine.com/flip-book/4075387fe0.html"
+      src="https://heyzine.com/flip-book/2adbfefe40.html"
       className="w-full h-full"
       allowFullScreen
       allow="clipboard-write"

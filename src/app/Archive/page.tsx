@@ -3,9 +3,9 @@ import EditorialLegacy from "@/components/editorialLegacy";
 import FlowingMenu from "@/components/flowingMenu";
 
 const demoItems = [
-  { link: 'Archive/2023', text: '2023', image: 'https://picsum.photos/600/400?random=1' },
-  { link: 'Archive/2024', text: '2024', image: 'https://picsum.photos/600/400?random=2' },
-  { link: 'Archive/2025', text: '2025', image: 'https://picsum.photos/600/400?random=3' }
+  { link: 'Archive/2023', text: '2023', image: 'https://res.cloudinary.com/dskdl70cq/image/upload/v1771950330/Sayan_Samanta_1st_CSE_3_ouchda.jpg' },
+  { link: 'Archive/2024', text: '2024', image: 'https://res.cloudinary.com/dskdl70cq/image/upload/v1771950285/Anuska_Guha_Thakurta_1st_CT_5_kjnjjz.jpg' },
+  { link: 'Archive/2025', text: '2025', image: 'https://res.cloudinary.com/dskdl70cq/image/upload/v1771950280/Anuska_Guha_Thakurta_1st_CT_1_hp93gs.jpg' }
 ];
 
 export default function ArchivePage() {
@@ -56,19 +56,6 @@ export default function ArchivePage() {
               it is a journey through evolving ideas and expression.
             </p>
           </div>
-        </div>
-      </section>
-
-
-      {/* Issues Grid */}
-      <section className="py-24 px-6">
-        <div className="max-w-6xl mx-auto text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-semibold tracking-tight">
-            Past Issues
-          </h2>
-          <p className="mt-4 text-neutral-600 text-lg">
-        Explore Pratibimba through the years — a visual journey of our evolving legacy.
-      </p>
         </div>
       </section>
 

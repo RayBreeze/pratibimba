@@ -79,6 +79,7 @@ export default function RootLayout({
         colors={['#fe5656', '#9a1313']} 
         accentColor="#fd2424" />
         <div className="flex items-center left-5 top-0 fixed z-50">
+          <Link href="/" className="flex items-center gap-2">
             <Image
               src="/logo.svg"
               alt=""
@@ -87,6 +88,7 @@ export default function RootLayout({
               objectPosition=""
               priority
             />
+            </Link>
           </div>
         <div className="flex-1">
         {children}

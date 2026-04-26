@@ -74,9 +74,14 @@ export default function AnnouncementBar() {
             className="flex items-center justify-center gap-1 flex-wrap"
           >
             {/* Message */}
+            <Link
+              href={current.link}
+              className="font-medium inline-flex items-center group ml-1"
+            >
             <span className="hidden sm:inline">
               {current.text}
             </span>
+            </Link>
 
             <span className="sm:hidden">
               {current.text.split(" ")[0]}

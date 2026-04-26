@@ -164,7 +164,7 @@ export default function Archive2023() {
     <div className="bg-white shadow-2xl rounded-2xl p-8 md:p-12">
 
       {/* Paragraph formatting without changing text */}
-      <div className={`${cormorant.className} space-y-6 text-neutral-900 leading-relaxed text-[20px] whitespace-pre-line tracking-[0.015em]`}>
+      <div className={` font-serif space-y-6 text-neutral-900 leading-relaxed text-[20px] whitespace-pre-line tracking-[0.015em]`}>
 {`Dear Readers,
 
 It is with great pleasure that we welcome you to the first issue of "Pratibimba", magazine for the Government College of Engineering and Ceramic Technology (GCECT). As the Editors-in-Chief of the magazine, it gives us immense satisfaction to see this publication come to fruition after months of hard work and dedication from the entire team.

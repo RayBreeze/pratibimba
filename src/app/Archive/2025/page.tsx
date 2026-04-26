@@ -164,7 +164,7 @@ export default function Archive2023() {
     <div className="bg-white shadow-2xl rounded-2xl p-8 md:p-12">
 
       {/* Paragraph formatting without changing text */}
-     <div className={`${cormorant.className} space-y-6 text-neutral-900 leading-relaxed text-[20px] whitespace-pre-line tracking-[0.015em]`}>
+     <div className={`font-serif space-y-6 text-neutral-900 leading-relaxed text-[20px] whitespace-pre-line tracking-[0.015em]`}>
 {`Greetings to all readers,
 
 It gives us immense joy and boundless excitement to present to you the third edition of Pratibimba. What you hold in your hands is not just a magazine, but a carefully crafted tapestry of thoughts, stories, and creativity woven together with dedication, passion, and a touch of editorial artistry that we take great pride in.

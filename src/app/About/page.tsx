@@ -188,97 +188,129 @@ I wish this mouthpiece, PRATIBIMBA, of the Government College of Engineering and
       <div className="text-center">
         <div className="relative w-40 h-40 mx-auto rounded-full overflow-hidden shadow-lg bg-rose-300">
           <img
-            src="/avatar-default.svg"
+            src="https://res.cloudinary.com/dskdl70cq/image/upload/v1777217628/WhatsApp_Image_2026-04-26_at_9.03.26_PM_c6yuqo.jpg"
             alt="President"
-            className="w-50 h-50 object-contain"
+            className="w-50 h-50 object-cover pointer-events-none"
           />
         </div>
         <h3 className="mt-6 text-xl font-semibold">Sohely Das</h3>
         <p className="text-rose-600 font-medium">Chief Editor</p>
-        <p className="mt-3 text-neutral-600 text-sm leading-relaxed">
-          Believes literature is a mirror to society and a voice of change.
-        </p>
       </div>
 
       {/* Member 2 */}
       <div className="text-center">
         <div className="relative w-40 h-40 mx-auto rounded-full overflow-hidden shadow-lg bg-rose-300">
           <img
-            src="/avatar-default.svg"
+            src="https://res.cloudinary.com/dskdl70cq/image/upload/v1776879199/Screenshot_2026-04-22_230030_fxcn9m.png"
             alt="Editor"
-            className="w-50 h-50 object-contain"
+            className="w-50 h-50 object-cover pointer-events-none"
           />
         </div>
         <h3 className="mt-6 text-xl font-semibold">Asmit Dey</h3>
         <p className="text-rose-600 font-medium">Chief Editor</p>
-        <p className="mt-3 text-neutral-600 text-sm leading-relaxed">
-          Curates stories that reflect youth, courage, and thought.
-        </p>
       </div>
 
       {/* Member 3 */}
       <div className="text-center">
         <div className="relative w-40 h-40 mx-auto rounded-full overflow-hidden shadow-lg bg-rose-300">
           <img
-            src="/avatar-default.svg"
+            src="https://res.cloudinary.com/dskdl70cq/image/upload/v1777215063/Screenshot_2026-04-26_201509_g3izp0.png"
             alt="Designer"
-            className="w-50 h-50 object-contain"
+            className="w-50 h-50 object-cover pointer-events-none"
           />
         </div>
         <h3 className="mt-6 text-xl font-semibold">Sougata Mondal</h3>
         <p className="text-rose-600 font-medium">Illustrator</p>
-        <p className="mt-3 text-neutral-600 text-sm leading-relaxed">
-          Designs visual narratives that complement written expression.
-        </p>
       </div>
 
       {/* Member 1 */}
       <div className="text-center">
         <div className="relative w-40 h-40 mx-auto rounded-full overflow-hidden shadow-lg bg-rose-300">
           <img
-            src="/avatar-default.svg"
+            src="https://res.cloudinary.com/dskdl70cq/image/upload/v1776879199/Screenshot_2026-04-22_230001_hjyaga.png"
             alt="President"
-            className="w-50 h-50 object-contain"
+            className="w-50 h-50 object-cover pointer-events-none"
           />
         </div>
         <h3 className="mt-6 text-xl font-semibold">Sougata Sanyal</h3>
         <p className="text-rose-600 font-medium">Illustrator</p>
-        <p className="mt-3 text-neutral-600 text-sm leading-relaxed">
-          Believes literature is a mirror to society and a voice of change.
-        </p>
       </div>
 
       {/* Member 1 */}
       <div className="text-center">
         <div className="relative w-40 h-40 mx-auto rounded-full overflow-hidden shadow-lg bg-rose-300">
           <img
-            src="/avatar-default.svg"
+            src="https://res.cloudinary.com/dskdl70cq/image/upload/v1777215063/Screenshot_2026-04-26_201440_s07dgr.png"
             alt="President"
-            className="w-50 h-50 object-contain"
+            className="w-50 h-50 object-cover pointer-events-none"
           />
         </div>
         <h3 className="mt-6 text-xl font-semibold">Pratik Halder</h3>
         <p className="text-rose-600 font-medium">Illustrator</p>
-        <p className="mt-3 text-neutral-600 text-sm leading-relaxed">
-          Believes literature is a mirror to society and a voice of change.
-        </p>
       </div>
 
       {/* Member 1 */}
       <div className="text-center">
         <div className="relative w-40 h-40 mx-auto rounded-full overflow-hidden shadow-lg bg-rose-300">
           <img
-            src="/avatar-default.svg"
+            src="https://res.cloudinary.com/dskdl70cq/image/upload/v1777217707/IMG-20260102-WA0041_hrydfs.jpg"
             alt="President"
-            className="w-50 h-50 object-contain"
+            className="w-50 h-50 object-cover pointer-events-none"
           />
         </div>
         <h3 className="mt-6 text-xl font-semibold">Samman Das</h3>
-        <p className="text-rose-600 font-medium">Designer & IT Systems</p>
-        <p className="mt-3 text-neutral-600 text-sm leading-relaxed">
-          Believes literature is a mirror to society and a voice of change.
-        </p>
+        <p className="text-rose-600 font-medium">Illustrator & Web Developer</p>
       </div>
+
+      <div className="text-center">
+        <div className="relative w-40 h-40 mx-auto rounded-full overflow-hidden shadow-lg bg-rose-300">
+          <img
+            src="https://res.cloudinary.com/dskdl70cq/image/upload/v1777215077/WhatsApp_Image_2026-04-24_at_4.58.08_PM_ybkdzd.jpg"
+            alt="President"
+            className="w-50 h-50 object-cover pointer-events-none"
+          />
+        </div>
+        <h3 className="mt-6 text-xl font-semibold">Arunima Sen</h3>
+        <p className="text-rose-600 font-medium">Designer</p>
+      </div>
+
+      <div className="text-center">
+        <div className="relative w-40 h-40 mx-auto rounded-full overflow-hidden shadow-lg bg-rose-300">
+          <img
+            src="https://res.cloudinary.com/dskdl70cq/image/upload/v1777215078/IMG-20260426-WA0008_xrm6ag.jpg"
+            alt="President"
+            className="w-50 h-50 object-cover pointer-events-none"
+          />
+        </div>
+        <h3 className="mt-6 text-xl font-semibold">Akash Sarkar</h3>
+        <p className="text-rose-600 font-medium">Designer</p>
+      </div>
+
+      <div className="text-center">
+        <div className="relative w-40 h-40 mx-auto rounded-full overflow-hidden shadow-lg bg-rose-300">
+          <img
+            src="https://res.cloudinary.com/dskdl70cq/image/upload/v1777215077/IMG-20260425-WA0001_hkoo1a.jpg"
+            alt="President"
+            className="w-50 h-50 object-cover pointer-events-none"
+          />
+        </div>
+        <h3 className="mt-6 text-xl font-semibold">Atib Sarkar</h3>
+        <p className="text-rose-600 font-medium">Designer</p>
+      </div>
+
+      <div className="text-center">
+        <div className="relative w-40 h-40 mx-auto rounded-full overflow-hidden shadow-lg bg-rose-300">
+          <img
+            src="https://res.cloudinary.com/dskdl70cq/image/upload/v1777215143/img-20260424-wa0010_xrlpac_1bde69.jpg"
+            alt="President"
+            className="w-50 h-50 object-cover pointer-events-none"
+          />
+        </div>
+        <h3 className="mt-6 text-xl font-semibold">Arman Sarkar</h3>
+        <p className="text-rose-600 font-medium">Designer</p>
+      </div>
+
+      
 
     </div>
   </div>
