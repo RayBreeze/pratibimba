@@ -48,7 +48,6 @@ const menuItems = [
 
 const socialItems = [
   { label: 'Instagram', link: 'https://www.instagram.com/pratibimba.official' },
-  { label: 'GitHub', link: 'https://github.com/RayBreeze/pratibimba' },
   { label: 'LinkedIn', link: 'https://www.linkedin.com/company/gcectpratibimba' }
 ];
 
