@@ -1,6 +1,7 @@
 "use client";
+
 import ReCAPTCHA from "react-google-recaptcha";
-import { useState, ChangeEvent, FormEvent } from "react";
+import { useState, useRef, ChangeEvent, FormEvent } from "react";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
 
@@ -17,6 +18,9 @@ function ContactForm() {
     message: "",
   });
 
+  const [token, setToken] = useState<string | null>(null);
+  const recaptchaRef = useRef<ReCAPTCHA>(null);
+
   const handleChange = (
     e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
@@ -30,6 +34,11 @@ function ContactForm() {
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
+    if (!token) {
+      toast.error("Please verify the captcha");
+      return;
+    }
+
     const serviceID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!;
     const templateID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!;
     const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!;
@@ -39,6 +48,7 @@ function ContactForm() {
         name: userInput.name,
         email: userInput.email,
         message: userInput.message,
+        "g-recaptcha-response": token, // ✅ Required for EmailJS CAPTCHA
       };
 
       const res = await emailjs.send(
@@ -50,11 +60,15 @@ function ContactForm() {
 
       if (res.status === 200) {
         toast.success("Message sent successfully!");
+
         setUserInput({
           name: "",
           email: "",
           message: "",
         });
+
+        recaptchaRef.current?.reset(); // reset captcha
+        setToken(null);
       }
     } catch (error) {
       toast.error("Failed to send message. Please try again later.");
@@ -63,11 +77,14 @@ function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
+      
       <div>
         <h2 className="text-3xl font-semibold tracking-tight mb-10">
-              Reach the Editorial Team
-            </h2>
+          Reach the Editorial Team
+        </h2>
       </div>
+
+      {/* Name */}
       <div>
         <label className="block mb-2 text-sm font-medium">
           Your Name
@@ -82,6 +99,7 @@ function ContactForm() {
         />
       </div>
 
+      {/* Email */}
       <div>
         <label className="block mb-2 text-sm font-medium">
           Your Email
@@ -96,6 +114,7 @@ function ContactForm() {
         />
       </div>
 
+      {/* Message */}
       <div>
         <label className="block mb-2 text-sm font-medium">
           Your Message
@@ -110,14 +129,23 @@ function ContactForm() {
         />
       </div>
 
-      <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY!} />
+      {/* CAPTCHA */}
+      <div className="pt-2 scale-90 origin-left">
+        <ReCAPTCHA
+          sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY!}
+          ref={recaptchaRef}
+          onChange={(value) => setToken(value)}
+        />
+      </div>
 
+      {/* Submit */}
       <button
         type="submit"
         className="bg-rose-600 text-white px-6 py-2 rounded-md hover:bg-rose-700 transition"
       >
         Share Your Reflection
       </button>
+
     </form>
   );
 }
