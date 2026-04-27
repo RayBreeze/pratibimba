@@ -36,9 +36,17 @@ export default function Footer() {
 
       </div>
 
-      <div className="border-t border-pink-200 text-center py-5 text-sm text-white font-medium">
-        © 2026 Pratibimba. All rights reserved.
-      </div>
+      <div className="border-t border-pink-200 py-5 text-sm text-white font-medium">
+  <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-2">
+    
+    <span>© {new Date().getFullYear()} Pratibimba. All rights reserved.</span>
+
+    <span className="text-white text-xs">
+      Designed by <a href="https://www.linkedin.com/in/samman-das-02aaa425b" className="hover:text-sky-500 transition">Samman Das (CSE-28)</a> 
+    </span>
+
+  </div>
+</div>
     </footer>
   )
 }

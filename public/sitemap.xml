@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://pratibimba.gcect.org/</loc>
+  <lastmod>2026-04-27T10:50:14+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://pratibimba.gcect.org/About</loc>
+  <lastmod>2026-04-27T10:50:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pratibimba.gcect.org/Gallery</loc>
+  <lastmod>2026-04-27T10:50:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pratibimba.gcect.org/Archive</loc>
+  <lastmod>2026-04-27T10:50:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pratibimba.gcect.org/Contact</loc>
+  <lastmod>2026-04-27T10:50:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pratibimba.gcect.org/Archive/2023</loc>
+  <lastmod>2026-04-27T10:50:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pratibimba.gcect.org/Archive/2024</loc>
+  <lastmod>2026-04-27T10:50:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pratibimba.gcect.org/Archive/2025</loc>
+  <lastmod>2026-04-27T10:50:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
