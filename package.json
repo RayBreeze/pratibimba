@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
+    "@types/react-google-recaptcha": "^2.1.9",
     "dotenv": "^17.4.2",
     "emailjs": "^5.0.0",
     "framer-motion": "^12.38.0",
@@ -21,6 +22,7 @@
     "pnpm": "^10.33.1",
     "react": "19.2.3",
     "react-dom": "19.2.3",
+    "react-google-recaptcha": "^3.1.0",
     "react-icons": "^5.5.0",
     "react-pageflip": "^2.0.3",
     "react-toastify": "^11.0.5",

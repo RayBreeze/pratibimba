@@ -1,5 +1,5 @@
 "use client";
-
+import ReCAPTCHA from "react-google-recaptcha";
 import { useState, ChangeEvent, FormEvent } from "react";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
@@ -109,6 +109,8 @@ function ContactForm() {
           className="w-full border border-neutral-300 px-4 py-2 rounded-md focus:outline-none focus:border-rose-600 resize-none"
         />
       </div>
+
+      <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY!} />
 
       <button
         type="submit"
