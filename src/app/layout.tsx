@@ -11,6 +11,7 @@ import footer from '@/components/layout/footer';
 import Link from "next/link";
 import AnnouncementBar from "@/components/announcementBar";
 import { Cormorant } from 'next/font/google';
+import  { Analytics } from '@vercel/analytics/next';
 
 export const cormorant = Cormorant({
   subsets: ['latin'],
@@ -71,6 +72,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${notoSansBengali.variable} ${playfair.variable} ${inter.variable} antialiased`}
       >
+        <Analytics />
         <StaggeredMenu isFixed={true} items={menuItems} socialItems={socialItems} 
         menuButtonColor="#ff0000"
         openMenuButtonColor="#fd2424"
